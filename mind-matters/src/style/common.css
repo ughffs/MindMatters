@@ -68,3 +68,31 @@ a:hover {
 .bold-text {
   font-weight: bold;
 }
+.feature-panel {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin: 20px;
+}
+.feature-item-container {
+  margin: 20px;
+}
+.feature-item-picture {
+  background-size: cover;
+  background-position: center center;
+  height: 500px;
+  width: 600px;
+}
+.feature-item-title {
+  font-size: 24px;
+  padding: 10px;
+  text-align: center;
+}
+.feature-item-blurb {
+  padding: 10px;
+  text-align: center;
+}
+.feature-item-actions {
+  text-align: center;
+}

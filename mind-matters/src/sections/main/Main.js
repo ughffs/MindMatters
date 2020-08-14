@@ -3,7 +3,9 @@ import Header from 'components/layout/main/Header';
 import ImageDisplayer from 'components/media/ImageDisplayer';
 import BlueImage from 'images/blue-background.jpg'
 import SearchBox from 'components/layout/shared/SearchBox';
+import FeaturePanel from 'components/layout/main/FeaturePanel';
 import 'style/common.css'
+
 
 const Main = (props) => {
     return(
@@ -27,10 +29,10 @@ const Main = (props) => {
                         <SearchBox className="home-search-box" />
                       </div>
                     </div>
-                </div>            
+                </div>
             </div>
-            <div className="fragment-default-style">
-                
+            <div className="fragment-default-style" style={fragmentOverride}>
+              <FeaturePanel />
             </div>
         </React.Fragment>
     );
@@ -45,6 +47,10 @@ const searchPanelWithBgImage = {
 
 const customBodyStyle = {
     alignItems: 'start'
+}
+
+const fragmentOverride = {
+    flexDirection: 'row'
 }
 
 export default Main;
