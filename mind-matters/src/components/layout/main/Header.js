@@ -10,7 +10,6 @@ const Header = (props) => {
                 <div className="header-left-container">
                     
                     <div className="header-menu-logo" style={ headerLeftLogo }></div>
-                    
                 </div>
                 <div className="header-menu-container">
                     <ul>

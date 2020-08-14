@@ -12,12 +12,20 @@ const Main = (props) => {
                 <Header />
                 <div className="body-main" style={customBodyStyle}>
                     <div className="search-panel" style={searchPanelWithBgImage}>
+                      <div className="search-container">
                         <div className="search-header">
-                            <div>
+                          <div className="search-heading">
                                 MindMatters.community
+                            </div>            
+                            <div className="subtle-heading">
+                              <span class="bold-text">You are not alone.</span>
+                            </div>
+                            <div className="subtle-heading">
+                              Find Mental Health Services near you
                             </div>
                         </div>
                         <SearchBox className="home-search-box" />
+                      </div>
                     </div>
                 </div>            
             </div>
@@ -30,7 +38,6 @@ const Main = (props) => {
 
 const searchPanelWithBgImage = {
     width: '100%',
-    height: '70%',
     backgroundSize: 'cover',
     backgroundPosition: 'center',
     backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url(${BlueImage})`

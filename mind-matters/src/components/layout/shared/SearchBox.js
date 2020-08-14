@@ -23,7 +23,6 @@ const inputBoxStyle = {
 
 const searchBoxContainer = {
     display: 'flex',
-    width: '60%'
 }
 
 export default SearchBox;

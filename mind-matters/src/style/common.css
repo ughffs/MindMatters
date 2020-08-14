@@ -1,5 +1,4 @@
 html {
-    scroll-snap-type: y mandatory;
 }
 body, html {
     width: 100%;
@@ -15,7 +14,6 @@ a:hover {
 }
 #root {
     width: 100%;
-    height: 100%;
 }
 .fragment-default-style {
     height: 100%;
@@ -40,7 +38,7 @@ a:hover {
     display: flex;
     flex: 1 100;
     flex-direction: column;
-    height: 100%;
+    height: 800px;
     justify-content: center;
     align-items: center;
 }
@@ -50,7 +48,23 @@ a:hover {
 }
 .search-header {
     text-align: left;
-    width: 60%;
     color: #ffffff;
     font-size: 28px;
+}
+.search-heading {
+  margin: 20px 0;
+  font-size: 2em;
+}
+.subtle-heading {
+    font-size: 18px;
+    margin: 20px 0;
+}
+.search-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  max-width: 1300px;
+}
+.bold-text {
+  font-weight: bold;
 }
