@@ -1,13 +1,29 @@
 import React from 'react';
+import { useEffect, useState } from 'react';
 import FeatureItem from 'components/layout/main/FeatureItem';
 import PlaceholderImage from 'images/placeholder.jpg';
 
 const FeaturePanel = (props) => {
+  const [features, setFeatures] = useState([]);
+  const [something, setSomething] = useState("Hello");
+  
+  // Use a hook here to make the api call (similar to componentDidMount())
+  useEffect(() => {
+    fetch("https://jsonplaceholder.typicode.com/posts")
+      .then(res => res.json())
+      .then(json => setFeatures(json))
+  }, [])
+
+  // For demo purposes, grab the top 3 results from the json request
+  let topFeatures = [...features].slice(0,3);
+  //console.log(topFeatures);
+
   return (
         <div className="feature-panel">
-          <FeatureItem image={PlaceholderImage} featureTitle="Something here" featureBlurb="This is some random blurb that will show"/>
-          <FeatureItem image={PlaceholderImage} featureTitle="Something else here" featureBlurb="This is some random blurb that will show"/>
-          <FeatureItem image={PlaceholderImage} featureTitle="Another thing here" featureBlurb="This is some other random blurb that will show"/>
+          {topFeatures.map(feature => (
+            <FeatureItem image={PlaceholderImage} featureTitle={feature.title} featureBlurb={feature.body} />
+          ))}
+          
         </div>
   );
 };
