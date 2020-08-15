@@ -38,13 +38,13 @@ a:hover {
     display: flex;
     flex: 1 100;
     flex-direction: column;
-    height: 800px;
+    height: 600px;
     justify-content: center;
     align-items: center;
 }
 .home-search-box {
     height: 50px;
-    font-size: 28px;
+    font-size: 24px;
 }
 .search-header {
     text-align: left;
@@ -81,8 +81,7 @@ a:hover {
 .feature-item-picture {
   background-size: cover;
   background-position: center center;
-  height: 500px;
-  width: 600px;
+  height: 300px;
 }
 .feature-item-title {
   font-size: 24px;
@@ -95,4 +94,12 @@ a:hover {
 }
 .feature-item-actions {
   text-align: center;
+}
+.search-icon-container {
+  width: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 3px 0 0 3px;
 }
