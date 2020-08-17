@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using AutoMapper;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -12,6 +13,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using MindMatters.Repository;
+using MindMatters.Repository.Services;
+using MindMatters.Service.Services;
+using MindMatters.Services.Mapping;
+using MindMatters.Services.Services;
 
 namespace MindMatters.WebApi
 {
@@ -29,6 +34,16 @@ namespace MindMatters.WebApi
         {
             services.AddControllers();
             services.AddDbContext<DataContext>(options => options.UseMySQL(Configuration.GetConnectionString("DefaultConnectiong")));
+
+            var mapperConfig = new MapperConfiguration(mc =>
+            {
+                mc.AddProfile(new MappingProfile());
+            });
+
+            IMapper mapper = mapperConfig.CreateMapper();
+            services.AddSingleton(mapper);
+            services.AddTransient<IFacilityRepository, FacilityRepository>();
+            services.AddTransient<IFacilityService, FacilityService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

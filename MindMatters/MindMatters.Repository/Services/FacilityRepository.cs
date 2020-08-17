@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MindMatters.DomainModel.Service;
+using MindMatters.DomainModel.Services;
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -7,18 +7,18 @@ using System.Threading.Tasks;
 
 namespace MindMatters.Repository.Services
 {
-    public class ServiceRepository
+    public class FacilityRepository : IFacilityRepository
     {
         private readonly DataContext _context;
 
-        public ServiceRepository(DataContext context)
+        public FacilityRepository(DataContext context)
         {
             _context = context;
         }
 
-        public async Task<List<Service>> SelectAllServicesAsync()
+        public async Task<List<Facility>> SelectAllServicesAsync()
         {
-            return await _context.Services.ToListAsync();
+            return await _context.Facilities.ToListAsync();
         }
     }
 }

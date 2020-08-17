@@ -5,6 +5,12 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.0.0" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.0.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MindMatters.DomainModel\MindMatters.DomainModel.csproj" />
     <ProjectReference Include="..\MindMatters.Repository\MindMatters.Repository.csproj" />
   </ItemGroup>
 

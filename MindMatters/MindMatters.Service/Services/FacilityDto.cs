@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace MindMatters.Service.Dto.ServiceDto
+namespace MindMatters.Service.Services
 {
-    public class ServiceDto
+    public class FacilityDto
     {
-        public int ServiceID { get; set; }
+        public int FacilityID { get; set; }
         public string Name { get; set; }
 
     }

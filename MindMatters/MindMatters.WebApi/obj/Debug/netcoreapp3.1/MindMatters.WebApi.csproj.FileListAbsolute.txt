@@ -57,3 +57,5 @@ D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\bi
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\bin\Debug\netcoreapp3.1\MindMatters.DomainModel.pdb
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\bin\Debug\netcoreapp3.1\MindMatters.Repository.pdb
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\obj\Debug\netcoreapp3.1\MindMatters.WebApi.csproj.CopyComplete
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

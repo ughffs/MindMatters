@@ -158,6 +158,9 @@
         "frameworks": {
           "netstandard2.0": {
             "projectReferences": {
+              "D:\\Source Control\\Website Projects\\MindMatters\\MindMatters\\MindMatters.DomainModel\\MindMatters.DomainModel.csproj": {
+                "projectPath": "D:\\Source Control\\Website Projects\\MindMatters\\MindMatters\\MindMatters.DomainModel\\MindMatters.DomainModel.csproj"
+              },
               "D:\\Source Control\\Website Projects\\MindMatters\\MindMatters\\MindMatters.Repository\\MindMatters.Repository.csproj": {
                 "projectPath": "D:\\Source Control\\Website Projects\\MindMatters\\MindMatters\\MindMatters.Repository\\MindMatters.Repository.csproj"
               }
@@ -173,6 +176,14 @@
       "frameworks": {
         "netstandard2.0": {
           "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
             "NETStandard.Library": {
               "suppressParent": "All",
               "target": "Package",

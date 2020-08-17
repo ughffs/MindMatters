@@ -8,7 +8,7 @@ D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Service\b
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Service\obj\Debug\netstandard2.0\MindMatters.Service.csprojAssemblyReference.cache
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Service\obj\Debug\netstandard2.0\MindMatters.Service.AssemblyInfoInputs.cache
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Service\obj\Debug\netstandard2.0\MindMatters.Service.AssemblyInfo.cs
-D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Service\obj\Debug\netstandard2.0\MindMatters.Service.csproj.CoreCompileInputs.cache
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Service\obj\Debug\netstandard2.0\MindMatters.Service.csproj.CopyComplete
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Service\obj\Debug\netstandard2.0\MindMatters.Service.dll
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Service\obj\Debug\netstandard2.0\MindMatters.Service.pdb
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Service\obj\Debug\netstandard2.0\MindMatters.Service.csproj.CoreCompileInputs.cache
