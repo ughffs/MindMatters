@@ -21,7 +21,7 @@ const FeaturePanel = (props) => {
   return (
         <div className="feature-panel">
           {topFeatures.map(feature => (
-            <FeatureItem image={PlaceholderImage} featureTitle={feature.title} featureBlurb={feature.body} />
+            <FeatureItem key={feature.id} image={PlaceholderImage} featureTitle={feature.title} featureBlurb={feature.body} />
           ))}
           
         </div>

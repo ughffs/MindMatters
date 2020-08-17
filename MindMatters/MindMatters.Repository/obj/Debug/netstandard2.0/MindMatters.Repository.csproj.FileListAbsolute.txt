@@ -1,0 +1,12 @@
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Repository\bin\Debug\netstandard2.0\MindMatters.Repository.deps.json
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Repository\bin\Debug\netstandard2.0\MindMatters.Repository.dll
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Repository\obj\Debug\netstandard2.0\MindMatters.Repository.csprojAssemblyReference.cache
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Repository\obj\Debug\netstandard2.0\MindMatters.Repository.AssemblyInfoInputs.cache
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Repository\obj\Debug\netstandard2.0\MindMatters.Repository.AssemblyInfo.cs
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Repository\bin\Debug\netstandard2.0\MindMatters.Repository.pdb
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Repository\bin\Debug\netstandard2.0\MindMatters.DomainModel.dll
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Repository\bin\Debug\netstandard2.0\MindMatters.DomainModel.pdb
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Repository\obj\Debug\netstandard2.0\MindMatters.Repository.csproj.CoreCompileInputs.cache
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Repository\obj\Debug\netstandard2.0\MindMatters.Repository.csproj.CopyComplete
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Repository\obj\Debug\netstandard2.0\MindMatters.Repository.dll
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.Repository\obj\Debug\netstandard2.0\MindMatters.Repository.pdb

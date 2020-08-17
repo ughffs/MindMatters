@@ -20,7 +20,7 @@ const Main = (props) => {
                                 MindMatters.community
                             </div>            
                             <div className="subtle-heading">
-                              <span class="bold-text">You are not alone.</span>
+                              <span className="bold-text">You are not alone.</span>
                             </div>
                             <div className="subtle-heading">
                               Find Mental Health Services near you

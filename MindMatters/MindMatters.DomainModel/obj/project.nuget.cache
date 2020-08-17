@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "etbckSywdir4YwWtRtIPZgyz5DA6NVeAS8U7yeBCdZ6hyJoUgWoydQzw6SpyRKqDiUKWvZ62/nU5PoWMwjYIQw==",
+  "success": true,
+  "projectFilePath": "D:\\Source Control\\Website Projects\\MindMatters\\MindMatters\\MindMatters.DomainModel\\MindMatters.DomainModel.csproj",
+  "expectedPackageFiles": [
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512",
+    "C:\\Users\\Aaron\\.nuget\\packages\\system.componentmodel.annotations\\4.7.0\\system.componentmodel.annotations.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

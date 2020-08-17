@@ -1,0 +1,9 @@
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.DomainModel\bin\Debug\netstandard2.0\MindMatters.DomainModel.deps.json
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.DomainModel\bin\Debug\netstandard2.0\MindMatters.DomainModel.dll
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.DomainModel\obj\Debug\netstandard2.0\MindMatters.DomainModel.csprojAssemblyReference.cache
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.DomainModel\obj\Debug\netstandard2.0\MindMatters.DomainModel.AssemblyInfoInputs.cache
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.DomainModel\obj\Debug\netstandard2.0\MindMatters.DomainModel.AssemblyInfo.cs
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.DomainModel\bin\Debug\netstandard2.0\MindMatters.DomainModel.pdb
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.DomainModel\obj\Debug\netstandard2.0\MindMatters.DomainModel.csproj.CoreCompileInputs.cache
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.DomainModel\obj\Debug\netstandard2.0\MindMatters.DomainModel.dll
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.DomainModel\obj\Debug\netstandard2.0\MindMatters.DomainModel.pdb
