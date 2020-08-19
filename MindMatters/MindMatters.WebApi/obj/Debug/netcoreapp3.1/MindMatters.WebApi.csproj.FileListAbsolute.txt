@@ -10,8 +10,6 @@ D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\bi
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\obj\Debug\netcoreapp3.1\MindMatters.WebApi.csprojAssemblyReference.cache
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\obj\Debug\netcoreapp3.1\MindMatters.WebApi.AssemblyInfoInputs.cache
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\obj\Debug\netcoreapp3.1\MindMatters.WebApi.AssemblyInfo.cs
-D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\obj\Debug\netcoreapp3.1\MindMatters.WebApi.csproj.CoreCompileInputs.cache
-D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\obj\Debug\netcoreapp3.1\MindMatters.WebApi.MvcApplicationPartsAssemblyInfo.cache
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\obj\Debug\netcoreapp3.1\MindMatters.WebApi.RazorTargetAssemblyInfo.cache
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\obj\Debug\netcoreapp3.1\staticwebassets\MindMatters.WebApi.StaticWebAssets.Manifest.cache
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\obj\Debug\netcoreapp3.1\staticwebassets\MindMatters.WebApi.StaticWebAssets.xml
@@ -59,3 +57,5 @@ D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\bi
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\obj\Debug\netcoreapp3.1\MindMatters.WebApi.csproj.CopyComplete
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.dll
 D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\bin\Debug\netcoreapp3.1\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\obj\Debug\netcoreapp3.1\MindMatters.WebApi.csproj.CoreCompileInputs.cache
+D:\Source Control\Website Projects\MindMatters\MindMatters\MindMatters.WebApi\obj\Debug\netcoreapp3.1\MindMatters.WebApi.MvcApplicationPartsAssemblyInfo.cache

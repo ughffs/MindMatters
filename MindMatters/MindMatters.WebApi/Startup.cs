@@ -12,6 +12,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Microsoft.Extensions.Options;
 using MindMatters.Repository;
 using MindMatters.Repository.Services;
 using MindMatters.Service.Services;
@@ -44,6 +45,19 @@ namespace MindMatters.WebApi
             services.AddSingleton(mapper);
             services.AddTransient<IFacilityRepository, FacilityRepository>();
             services.AddTransient<IFacilityService, FacilityService>();
+
+            //services.AddCors(c =>
+            //{
+            //    c.AddPolicy("AllowOrigin", options => options.AllowAnyOrigin());
+            //});
+
+            services.AddCors(options =>
+            {
+                options.AddDefaultPolicy(builder =>
+                {
+                    builder.SetIsOriginAllowed(origin => new Uri(origin).Host == "localhost");
+                });
+            });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -52,6 +66,8 @@ namespace MindMatters.WebApi
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
+
+                
             }
 
             app.UseHttpsRedirection();
@@ -64,6 +80,10 @@ namespace MindMatters.WebApi
             {
                 endpoints.MapControllers();
             });
+
+            //app.UseCors(options => options.AllowAnyOrigin());
+            //app.UseCors(options => options.WithOrigins("http://localhost"));
+
         }
     }
 }

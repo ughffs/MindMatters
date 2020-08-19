@@ -4,7 +4,9 @@ import ImageDisplayer from 'components/media/ImageDisplayer';
 import BlueImage from 'images/blue-background.jpg'
 import SearchBox from 'components/layout/shared/SearchBox';
 import FeaturePanel from 'components/layout/main/FeaturePanel';
+import FacilityPanel from 'components/layout/facility/FacilityPanel';
 import 'style/common.css'
+import Facility from 'components/layout/facility/Facility';
 
 
 const Main = (props) => {
@@ -31,8 +33,14 @@ const Main = (props) => {
                     </div>
                 </div>
             </div>
-            <div className="fragment-default-style" style={fragmentOverride}>
+            <div className="fragment-default-style" style={fragmentFeatureOverride}>
               <FeaturePanel />
+            </div>
+            <div className="fragment-default-style" style={fragmentFeatureOverride}>
+                  <div className="home-feature left">Featured Facilities</div>
+                  <div className="home-feature right">
+                      <FacilityPanel />
+                  </div>
             </div>
         </React.Fragment>
     );
@@ -49,7 +57,7 @@ const customBodyStyle = {
     alignItems: 'start'
 }
 
-const fragmentOverride = {
+const fragmentFeatureOverride = {
     flexDirection: 'row'
 }
 
